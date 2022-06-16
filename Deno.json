@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": false
+  },
+  "fmt": {
+    "files": {
+      "exclude": [
+        ".git",
+        "cov"
+      ]
+    }
+  },
+  "lint": {
+    "files": {
+      "exclude": [
+        ".git",
+        "cov"
+      ]
+    }
+  },
+  "tasks": {
+    "test": "deno test --doc --coverage=./cov"
+  }
+}
